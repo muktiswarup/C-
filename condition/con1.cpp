@@ -1,4 +1,4 @@
-#include <iostream>
+/* #include <iostream>
 using namespace std;
 int main() {
    char ch;
@@ -15,4 +15,31 @@ int main() {
  }
 
     return 0;
+} */
+
+// how to take an input value 
+
+/* #include <iostream>
+using namespace std;
+int main() {
+   int a,b;
+   cin>> a >> b;
+   cout<< "enter the value of a and b: " << a  << b<< endl;
+} */
+
+
+// wap a is positive number or -ve 
+
+#include <iostream>
+using namespace std;
+int main (){
+   cout<< " Enter a numnber:" << endl;
+   int n;
+   cin>> n;
+   if(n>=0){
+      cout<< n << "is a positive number" << endl;
+   }
+   else{
+      cout<< n << "is a negative number" << endl;
+   }
 }
