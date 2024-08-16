@@ -29,8 +29,7 @@ int main() {
 
 
 // wap a is positive number or -ve 
-
-#include <iostream>
+/* #include <iostream> 
 using namespace std;
 int main (){
    cout<< " Enter a numnber:" << endl;
@@ -41,5 +40,20 @@ int main (){
    }
    else{
       cout<< n << "is a negative number" << endl;
+   }
+}
+ */
+
+//output based question
+#include<iostream>
+using namespace std;
+int main(){
+   int a= 2;
+   int b= a+1;
+   if((a=3)==b){
+      cout<< "the value of "<<  a << endl;
+   }
+   else{
+      cout<< "the value of a+1" <<  a+1 << endl;
    }
 }
