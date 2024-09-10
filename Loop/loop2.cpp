@@ -181,10 +181,17 @@ int main (){
     while(i<=n){
         int j=1;
         while(j<=n){
-            if(i==1 || i== n || j==1 j==n){
-                cout << " *";
+            if(i==1 || j== 1 || i==n || j==n)
+            {
+                cout << "*";    
             }
-            j=
+            else{
+                cout << " ";
+            }
+             j=j+1;
+            
         }
+        cout << endl;
+        i=i+1;
     }
 } 
