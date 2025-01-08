@@ -46,3 +46,61 @@ public:
         return ans;
     }
 };
+
+
+
+
+
+/* #include<bits/stdc++.h>
+using namespace std ;
+vector<int>ans ;
+vector<int> spiralOrder(vector<vector<int>>&arr){
+    int count =0;
+    int n =arr.size();
+   int m =arr[0].size();
+  int startingRow=0;
+  int startingCol=0;
+  int endingRow=n-1;
+  int endingCol=m-1;
+  int total = m*n;
+  while (count <total){
+  for (int index=startingCol;count <total &&index<=endingCol;index++){
+     ans.push_back( arr[startingRow][index]);
+     count=count+1;
+  }
+  startingRow++;
+  cout << endl;
+  for (int index =startingRow;count <total && index<=endingRow;index++ ){
+     ans.push_back(arr[index][endingCol]);
+     count=count+1;
+  }
+  endingCol--;
+  cout << endl;
+  for(int index=endingCol;count <total && index>=startingCol;index--){
+     ans.push_back( arr[endingRow][index]);
+     count=count+1;
+  }
+  endingRow--;
+  cout <<endl;
+  for (int index=endingRow;count <total && index>=startingRow;index--){
+     ans.push_back(arr[index][startingCol]);
+     count=count+1;
+  }
+  startingCol++;
+  cout <<endl;
+  }
+  return ans ;
+}
+
+int main (){
+   vector<vector<int>>arr= {
+       {1,2,3},
+       {5,6,4},
+       {7,8,9}
+   };
+   vector<int>result=spiralOrder(arr);
+   for (int i :result){
+       cout << i << " ";
+   }
+   cout<< endl;
+} */
