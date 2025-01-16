@@ -51,7 +51,7 @@ int main (){
 } */
 
 
-#include<bits/stdc++.h>
+/* #include<bits/stdc++.h>
 using namespace std ;
 int update (int *arr,int n ){
     int sum =0;
@@ -70,4 +70,15 @@ for (int i =0;i<n;i++){
     cin >> arr[i];
 }
 cout << "The sum of the array is " << update(arr,n) << endl;
+} */
+
+#include<bits/stdc++.h>
+using namespace std ;
+int main (){
+    while (true){
+        int i =5;
+    }
+    while(true){
+        int *i = new int ;
+    }
 }
